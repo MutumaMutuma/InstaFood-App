@@ -31,8 +31,7 @@ For the user-interface:
 For the Business Logic:
 * Javascripts
 ## Support and contact details
-I encourage you to contact me for any queries through
-https://github.com/wanguinjoka.}
+I encourage you to contact us for any queries through our github links above.
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+MIT License
 Copyright (c) {2018}
