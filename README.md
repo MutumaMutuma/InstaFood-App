@@ -13,7 +13,7 @@ The program is divided into the user interface and business logic. With the foll
 
 |Behaviour                         | Input                    | Output         |
 |:--------------------------------:|:------------------------:|:--------------:|
-|User input email and password     | John.Doe@gmail.com       | opens page2    |
+|User input email and password     | madamnjoka@gmail.com       | opens page2    |
 |View availble meals and comment   |comment: meal looks tasty | comment saved  |
 |User should be able to order      | click order              | Opens order page|
 |User should be able to post a meal | click post meal         | open post meal page|
