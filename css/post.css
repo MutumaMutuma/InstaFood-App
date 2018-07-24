@@ -1,0 +1,38 @@
+*{
+  font-family: 'Comfortaa', cursive;
+}
+.upload{
+ background-color:#add8e6;
+}
+#img_contain{
+ border:1px solid grey;
+ margin-top:10px;
+ width:520px;
+
+}
+
+#imgInp{
+ margin-left:7px;
+ padding:10px;
+ background-color:gray;
+
+}
+#blah{
+ height:410px;
+ width:auto;
+ display:block;
+ margin-left: auto;
+  margin-right: auto;
+ padding:5px;
+}
+
+
+.formulaire{
+   background-color:#add8e6;
+  padding: 30px 30px 15px 30px;
+  border: 1px solid #53687E;
+   
+}
+.ul-style{
+
+}
