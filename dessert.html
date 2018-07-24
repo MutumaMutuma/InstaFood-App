@@ -20,8 +20,11 @@
       <a class="navbar-brand" href="#">
         <img src="Images/instafoodlogo.png" alt="logo" style="height:50px;">
       </a>
-      <form class="form-inline">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <form class="form-inline" name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+        <input id="hiddenquery" type="hidden" name="q" />
+  <input name="qfront" class="form-control mr-sm-2" type="text" placeholder="Search" value="navigator object"/>><br />
+  <div style="font: bold 11px Verdana; color:white;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
+  </div>
           <button class="btn btn-success" type="submit">Search</button>
         </form>
       <!-- Links -->
