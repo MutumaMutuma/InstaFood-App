@@ -1,0 +1,99 @@
+
+.upload{
+  background-color:#add8e6;
+}
+#img_contain{
+  border:1px solid grey;
+  margin-top:10px;
+  width:520px;
+
+}
+
+#imgInp{
+  margin-left:7px;
+  padding:10px;
+  background-color:gray;
+
+}
+#blah{
+  height:410px;
+  width:auto;
+  display:block;
+  margin-left: auto;
+   margin-right: auto;
+  padding:5px;
+}
+.submit{
+  margin-top:2px;
+}
+.cd-form {
+  position: relative;
+}
+
+.cd-form .cd-loading {
+  /* loading bar */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3%;
+  width: 100%;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  visibility: hidden;
+  transition: transform 3s;
+}
+
+.cd-form.is-submitted .cd-loading {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.cd-email {
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  transition: bottom 0.3s, background-color 0.3s;
+  z-index: 1;
+}
+
+.is-active .cd-email {
+  bottom: 50%;
+}
+
+.cd-submit {
+  top: 50%;
+  /* hidden by default */
+  display: none;
+  transition: background-color 0.2s;
+  z-index: 2;
+}
+
+.is-active .cd-submit {
+  display: block;
+  animation: cd-bounce-in ease-out 0.4s;
+}
+
+@keyframes cd-bounce-in {
+  0% {
+    top: 100%;
+  }
+
+  60% {
+    top: 45%;
+  }
+
+  100% {
+    top: 50%;
+  }
+}
+
+.formulaire{
+    background-color:#add8e6;
+   padding: 30px 30px 15px 30px;
+   border: 5px solid #53687E;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.ul-style{
+
+}
