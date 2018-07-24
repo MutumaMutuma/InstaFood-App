@@ -20,8 +20,11 @@
       <a class="navbar-brand" href="#">
         <img src="Images/instafoodlogo.png" alt="logo" style="height:50px;">
       </a>
-      <form class="form-inline">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <form class="form-inline" name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+        <input id="hiddenquery" type="hidden" name="q" />
+  <input name="qfront" class="form-control mr-sm-2" type="text" placeholder="Search" value="navigator object"/>><br />
+  <div style="font: bold 11px Verdana; color:white;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
+  </div>
           <button class="btn btn-success" type="submit">Search</button>
         </form>
       <!-- Links -->
@@ -190,7 +193,7 @@
                                   <span class="fa fa-instagram"></span>
                               </a>
                           </h1>
-                          <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
+                          <a href="#"><button class="success" type="button" name="button">ORDER</button></a>
                       </div>
 
               </div>
@@ -215,7 +218,8 @@
                                   <span class="fa fa-instagram"></span>
                               </a>
                           </p>
-                        <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
+                        <a href="#"><button class="success" type="button" name="button">ORDER</button></a>
+
                       </div>
               </div>
               <h4>Canberra Bambusa</h4>
@@ -232,7 +236,7 @@
 <p style="font-size:15px; text-align:center;">&copy; Copyright 2018 InstaFood</p>
 </footer>>
     <!-- Scripts -->
-    <script src="js/scripts.js" type="text/javascript">
+    <script src="js/asian.js" type="text/javascript">
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

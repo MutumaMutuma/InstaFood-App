@@ -1,242 +1,242 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title>IntaFood App</title>
-  </head>
-  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+  <title>IntaFood App</title>
+</head>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <!-- Brand/logo -->
-      <a class="navbar-brand" href="#">
-        <img src="Images/instafoodlogo.png" alt="logo" style="height:50px;">
-      </a>
-      <form class="form-inline">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-success" type="submit">Search</button>
-        </form>
-      <!-- Links -->
-      <ul class="navbar-nav">
-        <div class="row">
-          <div class="col-md-3">
-            <li class="nav-item">
-              <button class="btn btn-outline-success" style="border-radius:0.6rem;" type="button" name="button"><a class="nav-link" href="#"> <i class="glyphicon glyphicon-camera"></i> POST MEAL</a></button>
-            </li>
-          </div>
-          <div class="col-md-3">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-          </div>
-          <div class="col-md-3">
-            <li class="nav-item dropdown">
-              <button class="btn btn-outline-success" type="button" name="button">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                Options
-                </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Settings<i class="glyphicon glyphicon-cog"></i></a>
-                  <a class="dropdown-item" href="#">Profile<i class="glyphicon glyphicon-user"></i></a>
-                  <a class="dropdown-item" href="#">Log out<i class="glyphicon glyphicon-off"></i></a>
-                </div>
-              </button>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">
+                          <img src="Images/instafoodlogo.png" alt="logo" style="height:50px;">
+                        </a>
+    <form class="form-inline" name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+      <input id="hiddenquery" type="hidden" name="q" />
+<input name="qfront" class="form-control mr-sm-2" type="text" placeholder="Search" value="navigator object"/>><br />
+<div style="font: bold 11px Verdana; color:white;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
+</div>
 
-            </li>
-          </div>
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <div class="row">
+        <div class="col-md-3">
+          <li class="nav-item">
+            <button class="btn btn-outline-success" style="border-radius:0.6rem;" type="button" name="button"><a class="nav-link" href="#"> <i class="glyphicon glyphicon-camera"></i> POST MEAL</a></button>
+          </li>
         </div>
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-3">
+          <li class="nav-item dropdown">
+            <button class="btn btn-outline-success" type="button" name="button">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                  Options
+                                  </a>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Settings<i class="glyphicon glyphicon-cog"></i></a>
+                                    <a class="dropdown-item" href="#">Profile<i class="glyphicon glyphicon-user"></i></a>
+                                    <a class="dropdown-item" href="#">Log out<i class="glyphicon glyphicon-off"></i></a>
+                                  </div>
+                                </button>
+
+          </li>
+        </div>
+      </div>
+      </div>
+    </ul>
+  </nav>
+  <!-- -->
 
 
+  <div class="container-fluid" id="collo">
+    <div class="row">
+      <div class="col-md-2 collo">
+        <h2>Category</h2>
+        <h4> <a href="#">Fast Foods</a></h4>
+        <h4><a href="asian.html">Asian Cuisines</a></h4>
+        <h4> <a href="african.html">African Cuisines</a> </h4>
+        <h4> <a href="drinks.html">Drinks</a> </h4>
+        <h4> <a href="dessert.html">Dessert</a> </h4>
+      </div>
 
-  </div>
-
-      </ul>
-    </nav>
-        <!-- -->
-
-
-<div class="container-fluid" id="collo">
-  <div class="row">
-   <div class="col-md-2 collo">
-     <h2>Category</h2>
-      <h4> <a href="#">Fast Foods</a></h4>
-     <h4><a href="asian.html">Asian Cuisines</a></h4>
-     <h4> <a href="african.html">African Cuisines</a> </h4>
-     <h4> <a href="drinks.html">Drinks</a> </h4>
-     <h4> <a href="dessert.html">Dessert</a> </h4>
-   </div>
-
-   <div class="col-md-10">
-     <h1> <img src="Images/African.jpg" alt="" height="150px" width="150px"> African Cuisines</h1>
-     <div class="row">
-       <div class="col-md-4">
-         <div class="Thumbnail">
-           <div class="hovereffect">
-                  <img class="img-responsive" src="Images/westafricanrice.jpg" alt="" height="300px" width="300px">
-                      <div class="overlay">
-                          <h1 class="icon-links">
-                              <a href="#">
-                                  <span class="fa fa-twitter"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-facebook"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-instagram"></span>
-                              </a>
-                          </h1>
-                          <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
-                      </div>
+      <div class="col-md-10">
+        <h1> <img src="Images/African.jpg" alt="" height="150px" width="150px"> African Cuisines</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="Thumbnail">
+              <div class="hovereffect">
+                <img class="img-responsive" src="Images/westafricanrice.jpg" alt="" height="300px" width="300px">
+                <div class="overlay">
+                  <h1 class="icon-links">
+                                                <a href="#">
+                                                    <span class="fa fa-twitter"></span>
+                                                </a>
+                                                <a href="#">
+                                                    <span class="fa fa-facebook"></span>
+                                                </a>
+                                                <a href="#">
+                                                    <span class="fa fa-instagram"></span>
+                                                </a>
+                                            </h1>
+                  <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
+                </div>
               </div>
               <h4>Garnished WestAfrican rice</h4>
-              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 4554</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i>1</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
-         </div>
+              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 4554</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i>1</button>              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
+            </div>
 
-       </div>
-       <div class="col-md-4">
-         <div class="Thumbnail">
-           <div class="hovereffect">
-                  <img class="img-responsive" src="Images/Restaurant-Tasty-African-Food-5.jpg" alt="" height="300px" width="300px">
-                      <div class="overlay">
-                          <p class="icon-links">
-                              <a href="#">
-                                  <span class="fa fa-twitter"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-facebook"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-instagram"></span>
-                              </a>
-                          </p>
-                          <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
-                      </div>
+          </div>
+          <div class="col-md-4">
+            <div class="Thumbnail">
+              <div class="hovereffect">
+                <img class="img-responsive" src="Images/Restaurant-Tasty-African-Food-5.jpg" alt="" height="300px" width="300px">
+                <div class="overlay">
+                  <p class="icon-links">
+                    <a href="#">
+                                                    <span class="fa fa-twitter"></span>
+                                                </a>
+                    <a href="#">
+                                                    <span class="fa fa-facebook"></span>
+                                                </a>
+                    <a href="#">
+                                                    <span class="fa fa-instagram"></span>
+                                                </a>
+                  </p>
+                  <a href="#"><button class="success" type="button" name="button">ORDER</button></a>
+                </div>
 
               </div>
               <h4>Ugali Matumbo</h4>
-              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1201</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
-         </div>
+              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1201</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button>              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
+            </div>
 
-       </div>
-       <div class="col-md-4">
-         <div class="Thumbnail">
-           <div class="hovereffect">
-                  <img class="img-responsive" src="Images/FichierPotjie.JPG" alt="" height="300px" width="300px">
-                      <div class="overlay">
-                          <p class="icon-links">
-                              <a href="#">
-                                  <span class="fa fa-twitter"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-facebook"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-instagram"></span>
-                              </a>
-                          </p>
-                        <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
-                      </div>
+          </div>
+          <div class="col-md-4">
+            <div class="Thumbnail">
+              <div class="hovereffect">
+                <img class="img-responsive" src="Images/FichierPotjie.JPG" alt="" height="300px" width="300px">
+                <div class="overlay">
+                  <p class="icon-links">
+                    <a href="#">
+                                                    <span class="fa fa-twitter"></span>
+                                                </a>
+                    <a href="#">
+                                                    <span class="fa fa-facebook"></span>
+                                                </a>
+                    <a href="#">
+                                                    <span class="fa fa-instagram"></span>
+                                                </a>
+                  </p>
+                  <a href="#"><button class="success" type="button" name="button">ORDER</button></a>
+                </div>
               </div>
               <h4>Fichier Potjie</h4>
-              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
-         </div>
+              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button>              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
+            </div>
 
-       </div>
-     </div>
-     <div class="row">
-       <div class="col-md-4">
-         <div class="Thumbnail">
-           <div class="hovereffect">
-                  <img class="img-responsive" src="Images/steak.jpg" alt="" height="300px" width="300px">
-                      <div class="overlay">
-                          <p class="icon-links">
-                              <a href="#">
-                                  <span class="fa fa-twitter"></span>
-                              </a>
-                              <a href="#" style="font-size:20px;">
-                                  <span class="fa fa-facebook"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-instagram"></span>
-                              </a>
-                          </p>
-                          <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
-                      </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="Thumbnail">
+              <div class="hovereffect">
+                <img class="img-responsive" src="Images/steak.jpg" alt="" height="300px" width="300px">
+                <div class="overlay">
+                  <p class="icon-links">
+                    <a href="#">
+                                                    <span class="fa fa-twitter"></span>
+                                                </a>
+                    <a href="#" style="font-size:20px;">
+                                                    <span class="fa fa-facebook"></span>
+                                                </a>
+                    <a href="#">
+                                                    <span class="fa fa-instagram"></span>
+                                                </a>
+                  </p>
+                  <a href="#"><button class="success" type="button" name="button">ORDER</button></a>
+                </div>
               </div>
               <h4>Roasted Steak( <em>Nyama Choma</em> )</h4>
-              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
-         </div>
+              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button>              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
+            </div>
 
-       </div>
-       <div class="col-md-4">
-         <div class="Thumbnail">
-           <div class="hovereffect">
-                  <img class="img-responsive" src="Images/Jollof_rice_with_vegetable.jpg" alt="" height="300px" width="300px">
-                      <div class="overlay">
-                          <p class="icon-links">
-                              <a href="#">
-                                  <span class="fa fa-twitter"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-facebook"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-instagram"></span>
-                              </a>
-                          </p>
-                          <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
-                      </div>
+          </div>
+          <div class="col-md-4">
+            <div class="Thumbnail">
+              <div class="hovereffect">
+                <img class="img-responsive" src="Images/Jollof_rice_with_vegetable.jpg" alt="" height="300px" width="300px">
+                <div class="overlay">
+                  <p class="icon-links">
+                    <a href="#">
+                                                    <span class="fa fa-twitter"></span>
+                                                </a>
+                    <a href="#">
+                                                    <span class="fa fa-facebook"></span>
+                                                </a>
+                    <a href="#">
+                                                    <span class="fa fa-instagram"></span>
+                                                </a>
+                  </p>
+                  <a href="#"><button class="success" type="button" name="button">ORDER</button></a>
+                </div>
 
               </div>
               <h4>Jollof rice with vegetable</h4>
-              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
-         </div>
+              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button>              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
+            </div>
 
-       </div>
-       <div class="col-md-4">
-         <div class="Thumbnail">
-           <div class="hovereffect">
-                  <img class="img-responsive" src="Images/lentils-with-butternut-squash-and-merguez-sausage-xl-wnbook2014.jpg" alt="" height="300px" width="300px">
-                      <div class="overlay">
-                          <p class="icon-links">
-                              <a href="#">
-                                  <span class="fa fa-twitter"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-facebook"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-instagram"></span>
-                              </a>
-                          </p>
-                        <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
-                      </div>
+          </div>
+          <div class="col-md-4">
+            <div class="Thumbnail">
+              <div class="hovereffect">
+                <img class="img-responsive" src="Images/lentils-with-butternut-squash-and-merguez-sausage-xl-wnbook2014.jpg" alt="" height="300px" width="300px">
+                <div class="overlay">
+                  <p class="icon-links">
+                    <a href="#">
+                                                    <span class="fa fa-twitter"></span>
+                                                </a>
+                    <a href="#">
+                                                    <span class="fa fa-facebook"></span>
+                                                </a>
+                    <a href="#">
+                                                    <span class="fa fa-instagram"></span>
+                                                </a>
+                  </p>
+                  <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
+                </div>
               </div>
               <h4>lentils with butternut squash and merguez sausage</h4>
-              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
-         </div>
+              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button>              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
+            </div>
 
-       </div>
-     </div>
-   </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 
-<footer>
-<p style="font-size:15px; text-align:center;">&copy; Copyright 2018 InstaFood</p>
-</footer>
-    <!-- Scripts -->
-    <script src="js/scripts.js" type="text/javascript">
-    </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
+  <footer>
+    <p style="font-size:15px; text-align:center;">&copy; Copyright 2018 InstaFood</p>
+  </footer>
+  <!-- Scripts -->
+  <script src="js/african.js" type="text/javascript">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-  </body>
+</body>
+
 </html>
