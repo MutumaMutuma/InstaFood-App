@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // alert("uyghf");
 $(document).ready(function(){
   // Initialize Tooltip
@@ -27,3 +28,25 @@ $(document).ready(function(){
     } // End if
   });
 })
+=======
+function readURL(input) {
+
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+
+    reader.onload = function(e) {
+      $('#blah').attr('src', e.target.result);
+
+      $('#blah').hide();
+      $('#blah').fadeIn(650);
+
+    }
+
+    reader.readAsDataURL(input.files[0]);
+  }
+}
+
+$("#imgInp").change(function() {
+  readURL(this);
+});
+>>>>>>> ad66828f6d59d32eae30bd1a63cbf46d93f82d8e

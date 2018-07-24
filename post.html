@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="shortcut icon" href="img/.jpeg" />
+<link href="/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<script src="/js/ajaxupload.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <title>INSTA-FOOD</title>
+  </head>
+</head>
+<body>
+  <section class="container-fluid">
+<div class="row">
+  <div class="">
+     <div class="col card-body upload ">
+       <div id="preview">
+         <form id="form1" runat="server">
+           <input type='file' id="imgInp" />
+            <div id='img_contain' >
+              <img id="blah"  class="" align='middle' src="http://www.clker.com/cliparts/c/W/h/n/P/W/generic-image-file-icon-hi.png" alt="your image" title='upload image'/>
+            </div>
+           <input type="submit" class=" submit btn btn-info" value="Add Image">
+        </form>
+     </div>
+  </div>
+</div>
+
+<div class="col">
+   <div class="card card-outline-secondary">
+  <form action="" class="form formulaire" method="post">
+
+    <ul class="list-group list-group-flush ul-style ">
+
+      <li class="list-group-item ">
+          <label for="fname">I'm selling</label>
+          <div class="col">
+            <input type="text" class="form-control  " id="fname" required="" name="firstname" placeholder="What you are selling..">
+          </div>
+        </li>
+
+  <li class="list-group-item">
+        <label for="fname">My number</label>
+      <div class=" col">
+        <input type="text" class="form-control" id="fname" required="" name="firstname" placeholder="Your number..">
+      </div>
+    </li>
+
+    <li class="list-group-item">
+
+      <label for="fnaddress">Your Address</label>
+    <div class=" col">
+   <input type="text" class=" form-control" placeholder="your city">
+   <input type="text" class=" form-control" placeholder=" your Area name">
+ </div>
+ </li>
+
+  <li class="list-group-item">
+        <label for="subject">Description of your meal</label>
+        <div class=" col">
+        <textarea id="subject" required="" class="form-control" name="subject" placeholder="Write something.." style="height:150px">
+        </textarea>
+         </div>
+      <input type="submit" class="btn btn-secondary btn- float-right"  value="Submit">
+          </li>
+        </ul>
+      </form>
+    </div>
+  </div>
+</div>
+  </section>
+
+  <script src="js/scripts.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
