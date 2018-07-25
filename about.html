@@ -19,18 +19,25 @@
     <a class="navbar-brand" href="#">
       <img src="Images/instafoodlogo.png" alt="logo" style="height:50px;">
     </a>
-    <form class="form-inline">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-success" type="submit">Search</button>
-    </form>
+    <form class="form-inline" name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+      <input id="hiddenquery" type="hidden" name="q" />
+<input name="qfront" class="form-control mr-sm-2" type="text" placeholder="Search" value="navigator object"/>><br />
+<div style="font: bold 11px Verdana; color:white;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
+</div>
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
     <!-- Links -->
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-      <a href="post.html"><button  type="button" class="btn btn-outline-success">Post Meal</button></a>
+      <a href="home.html"><button href="home.html" type="button" class="btn btn-outline-success">Home</button></a>
       </li>
       <li class="nav-item">
-      <a href="about.html"><button type="button" class="btn btn-outline-success">About Us</button></a>
+      <a href="post.html"><button href="post.html" type="button" class="btn btn-outline-success">Post Meal</button></a>
       </li>
+      <li class="nav-item">
+      <a href="about.html"><button href="about.html" type="button" class="btn btn-outline-success">About Us</button></a>
+      </li>
+
       </div>
       <div class="">
         <li class="nav-item dropdown">

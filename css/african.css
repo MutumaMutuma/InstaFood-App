@@ -101,3 +101,6 @@ transition-delay:.2s;
 .like-button{
   float:right;
 }
+.but{
+  display:inline-flex;
+}

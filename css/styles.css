@@ -103,3 +103,6 @@ transition-delay:.2s;
 .ul-style{
 
 }
+.but{
+  display:inline-flex;
+}
