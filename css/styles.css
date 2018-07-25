@@ -106,3 +106,54 @@ transition-delay:.2s;
 .but{
   display:inline-flex;
 }
+
+.body{background-image: url(../Images/donut-burger.jpg);
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .imge{
+   width: 100px;
+   height: 100px;
+  }
+  .form{
+   margin-left:25%;
+
+  }
+  .p-labe{
+   margin-right:5%;
+   font-family: fantasy;
+   font-size:1.5em;
+   font-weight: bold;
+   letter-spacing:5px;
+   text-shadow:1px 1px 2px rgba(0,0,0,1.9);
+   color: rgb(33, 216, 223);
+  }
+  .p-labe1{
+   font-family:Roboto;
+   font-size:1.5em;
+   font-weight: bold;
+  letter-spacing:5px;
+  text-shadow:1px 1px 2px rgba(0,0,0,1.9);
+  color: rgb(36, 206, 197);
+  }
+  .h1{
+  font-family: fantasy;
+  font-weight: bold;
+  letter-spacing:1px;
+  color: white;
+  font-style: italic;
+  }
+  .h3{
+   margin-left:50%;
+  font-family:cursive;
+  font-weight: bold;
+  letter-spacing:2px;
+  text-shadow:2px 1px 1px rgba(0,0,0,1.9);
+  color:White;
+  }
+  .back{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 400px;
+
+  }
