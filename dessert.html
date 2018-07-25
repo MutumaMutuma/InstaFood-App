@@ -14,7 +14,6 @@
     <title>IntaFood App</title>
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <!-- Brand/logo -->
       <a class="navbar-brand" href="#">
@@ -28,39 +27,29 @@
           <button class="btn btn-success" type="submit">Search</button>
         </form>
       <!-- Links -->
-      <ul class="navbar-nav">
-        <div class="row">
-          <div class="col-md-3">
-            <li class="nav-item">
-              <button class="btn btn-outline-success" style="border-radius:0.6rem;" type="button" name="button"><a class="nav-link" href="#"> <i class="glyphicon glyphicon-camera"></i> POST MEAL</a></button>
-            </li>
-          </div>
-          <div class="col-md-3">
-
-          </div>
-          <div class="col-md-3">
-            <li class="nav-item dropdown">
-              <button class="btn btn-outline-success" type="button" name="button">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                Options
-                </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Settings<i class="glyphicon glyphicon-cog"></i></a>
-                  <a class="dropdown-item" href="#">Profile<i class="glyphicon glyphicon-user"></i></a>
-                  <a class="dropdown-item" href="#">Log out<i class="glyphicon glyphicon-off"></i></a>
-                </div>
-              </button>
-
-            </li>
-          </div>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+        <a href="post.html"><button herf="post.html" type="button" class="btn btn-outline-success">Post Meal</button></a>
+        </li>
+        <li class="nav-item">
+        <a href="about.html"><button href="about.html" type="button" class="btn btn-outline-success">About Us</button></a>
+        </li>
         </div>
-
-
-
-  </div>
-
-      </ul>
-    </nav>
+        <div class="">
+          <li class="nav-item dropdown">
+            <div class="dropdown show">
+              <a class="btn btn-outline-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Options</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Settings</a>
+                  <a class="dropdown-item" href="#">Profile</a>
+                  <a class="dropdown-item" href="#">Log Out</a>
+                </div>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </nav>
         <!-- -->
 
 
