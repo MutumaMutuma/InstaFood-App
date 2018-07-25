@@ -15,47 +15,44 @@
   </head>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <!-- Brand/logo -->
     <a class="navbar-brand" href="#">
       <img src="Images/instafoodlogo.png" alt="logo" style="height:50px;">
     </a>
     <form class="form-inline">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-success" type="submit">Search</button>
-      </form>
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
     <!-- Links -->
     <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <button class="btn btn btn-outline-success float-right" style="border-radius:0.6rem;" type="button" name="button">
-              <a class="nav-link" href="#">
-               <i class="glyphicon glyphicon-camera"></i> POST MEAL</a>
-             </button>
-          </li>
-        </div>
-        <div class="">
-          <li class="nav-item dropdown">
-            <button class="btn btn btn-outline-success" type="button" name="button">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Options
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Settings<i class="glyphicon glyphicon-cog"></i></a>
-                <a class="dropdown-item" href="#">Profile<i class="glyphicon glyphicon-user"></i></a>
-                <a class="dropdown-item" href="#">Log out<i class="glyphicon glyphicon-off"></i></a>
+      <li class="nav-item">
+        <button herf="post.html" type="button" class="btn btn-outline-success">Post Meal</button>
+      </li>
+      <li class="nav-item">
+        <button href="about.html" type="button" class="btn btn-outline-success">About Us</button>
+      </li>
+      </div>
+      <div class="">
+        <li class="nav-item dropdown">
+          <div class="dropdown show">
+            <a class="btn btn-outline-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Options</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Settings <i class="glyphicon glyphicon-cog"></a>
+                <a class="dropdown-item" href="#">Profile</a>
+                <a class="dropdown-item" href="#">Log Out</a>
               </div>
-            </button>
-
+            </div>
           </li>
         </div>
-
-
-    </ul>
-  </nav>
+      </ul>
+    </nav>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-8">
+      <a style="color:purple; font-size:15px;" href="home.html">Home</a>/ <a style="color:purple; font-size:15px;" href="#">Recipe</a>
+        <h3>Bildungs Burger</h3>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -89,39 +86,67 @@
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Allergens</th>
+      <th scope="col">Available conditions</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>Peanuts</td>
+      <td>Very Hot</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td>Garlic</td>
+      <td>Warm</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
+      <td>Sausa Map</td>
+      <td>Frozen</td>
     </tr>
   </tbody>
 </table>
+  </div>
+</div>
+<div style="background-color:lightgreen;" class="card">
+  <div class="card-body">
+    <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">
+  Order
+</button>
+
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Bildungs Burger <img src="Images/burgerlogo.ico" alt="" height="60px"> </h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      You've Succesfully ordered Bildungs Burger... Thanks
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+      <h2> <a href="Address book/index.html"><button type="button" class="btn btn-secondary">For Delivery</button></a>   <button type="button" class="btn btn-secondary" data-dismiss="modal">Pick Up</button></h2>
+      </div>
+
+    </div>
+  </div>
+</div>
   </div>
 </div>
 </div>
 
 <div class="col-md-4">
   <div class="card">
-    <h3>Cost:</h3>
+    <h3 class="bg-success">Cost:</h3>
     <h3>$ 6</h3>
     <h3>600 Kes</h3>
   </div>
@@ -138,6 +163,9 @@
     </div>
     <h3> <button class="btn btn-outline-success" type="button" name="button">Call</button> <button class="btn btn-outline-success" type="button" name="button">Text</button> </h3>
     <p><button>Contact</button></p>
+  </div>
+  <div class="card">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.3953001128161!2d36.78358795747256!3d-1.300492409943112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1a6bf7445dc1%3A0x940b62a3c8efde4c!2sMoringa+School!5e0!3m2!1sen!2ske!4v1532507723584" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </div>
 </div>

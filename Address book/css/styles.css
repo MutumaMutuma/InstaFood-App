@@ -1,0 +1,16 @@
+.card{
+  background-color: #eaf2ed;
+  font-family: 'Patrick Hand', cursive;
+}
+#show-contact {
+  display: none;
+}
+
+.contact {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
