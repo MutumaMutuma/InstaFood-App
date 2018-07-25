@@ -1,69 +1,47 @@
 body{background-image: url(../Images/salad.jpg);
-    width:100%;
+    width:100px;
     background-repeat: no-repeat;
-    background-size:100%
+    background-size:cover;
+  }
+  .imge{
+   width: 300px;
+   height: 300px;
+  }
+  .form{
+   margin-left:25%;
 
-}
-
-/* Bordered form */
-form {
-    border: 3px solid #f1f1f1;
-}
-
-/* Full-width inputs */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 50%;
-}
-
-/* Add a hover effect for buttons */
-button:hover {
-    opacity: 0.8;
-}
-
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-    width: auto;
-    padding: 10px;
-    background-color: #f44336;
-}
-
-/* Add padding to containers */
-.container {
-    padding: 14px;
-    width: auto;
-
-}
-
-/* The "Forgot password" text */
-span.psw {
-    float: right;
-    padding-top: 16px;
-}
-
-/* Change styles for span all screens */
-@media screen and (max-width: 300px) {
-    span.psw {
-        display: block;
-        float: none;
-    }
-    .cancelbtn {
-        width: 100%;
-    }
-} 
+  }
+  .p-labe{
+   margin-right:5%;
+   font-family: fantasy;
+   font-size:1.5em;
+   font-weight: bold;
+   letter-spacing:5px;
+   text-shadow:1px 1px 2px rgba(0,0,0,1.9);
+   color: rgb(33, 216, 223);
+  }
+  .p-labe1{
+   font-family:Roboto;
+   font-size:1.5em;
+   font-weight: bold;
+  letter-spacing:5px;
+  text-shadow:1px 1px 2px rgba(0,0,0,1.9);
+  color: rgb(36, 206, 197);
+  }
+  .h1{
+  font-family: fantasy;
+  font-weight: bold;
+  letter-spacing:5px;
+  text-shadow:2px 1px 1px rgba(0,0,0,1.9);
+  color: rgb(194, 191, 16);
+  font-style: oblique;
+  }
+  .h3{
+   margin-left:50%;
+  font-family:cursive;
+  font-weight: bold;
+  letter-spacing:2px;
+  text-shadow:2px 1px 1px rgba(0,0,0,1.9);
+  color:White;
+  } 
  

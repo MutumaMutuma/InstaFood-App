@@ -1,10 +1,11 @@
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none" ;
-    }
-}
+function readURL(input) {  if (input.files && input.files[0]) {
+    var reader = new FileReader();  
+      reader.onload = function(e) {
+      $('#blah').attr('src', e.target.result);      $('#blah').hide();
+      $('#blah').fadeIn(650);    }
+       reader.readAsDataURL(input.files[0]);
+  }
+ }$("#imgInp").change(function() {
+  readURL(this);
+ });
  
