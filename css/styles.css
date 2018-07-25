@@ -1,8 +1,8 @@
-body{
-    background-image: url(../Images/salad.jpg);
+body{background-image: url(../Images/salad.jpg);
     width:100%;
     background-repeat: no-repeat;
     background-size:100%
+
 }
 
 /* Bordered form */
@@ -47,11 +47,7 @@ button:hover {
 .container {
     padding: 14px;
     width: auto;
-    margin-right:10px;
 
-/* Add padding to containers */
-.container {
-    padding: 16px;
 }
 
 /* The "Forgot password" text */
@@ -61,7 +57,6 @@ span.psw {
 }
 
 /* Change styles for span all screens */
-/* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
     span.psw {
         display: block;
@@ -71,3 +66,4 @@ span.psw {
         width: 100%;
     }
 } 
+ 
