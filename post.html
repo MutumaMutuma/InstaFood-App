@@ -11,123 +11,108 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <title>INSTA-FOOD</title>
   </head>
-</head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <!-- Brand/logo -->
-    <a class="navbar-brand" href="#">
-      <img src="Images/instafoodlogo.png" alt="logo" style="height:50px;">
-    </a>
-    <form class="form-inline">
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="#">
+        <img src="Images/instafoodlogo.png" alt="logo" style="height:50px;">
+      </a>
+      <form class="form-inline">
         <input class="form-control mr-sm-2" type="text" placeholder="Search">
         <button class="btn btn-success" type="submit">Search</button>
       </form>
-    <!-- Links -->
-    <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <button class="btn btn btn-outline-success float-right" style="border-radius:0.6rem;" type="button" name="button">
-              <a class="nav-link" href="#">
-               <i class="glyphicon glyphicon-camera"></i> POST MEAL</a>
-             </button>
-          </li>
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <button herf="post.html" type="button" class="btn btn-outline-success">Post Meal</button>
+        </li>
+        <li class="nav-item">
+          <button href="about.html" type="button" class="btn btn-outline-success">About Us</button>
+        </li>
         </div>
         <div class="">
           <li class="nav-item dropdown">
-            <button class="btn btn btn-outline-success" type="button" name="button">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Options
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Settings<i class="glyphicon glyphicon-cog"></i></a>
-                <a class="dropdown-item" href="#">Profile<i class="glyphicon glyphicon-user"></i></a>
-                <a class="dropdown-item" href="#">Log out<i class="glyphicon glyphicon-off"></i></a>
+            <div class="dropdown show">
+              <a class="btn btn-outline-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Options</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Settings <i class="glyphicon glyphicon-cog"></a>
+                  <a class="dropdown-item" href="#">Profile</a>
+                  <a class="dropdown-item" href="#">Log Out</a>
+                </div>
               </div>
-            </button>
-
-          </li>
-        </div>
-
-
-    </ul>
-  </nav>
-  <section class="container-fluid">
-
-<div class="row">
-  <div class="">
-     <div class="col card-body upload ">
-       <div id="preview">
-         <form id="form1" runat="server">
-           <input type='file' id="imgInp" />
-            <div id='img_contain' >
-              <img id="blah"  class="" align='middle' src="http://www.clker.com/cliparts/c/W/h/n/P/W/generic-image-file-icon-hi.png" alt="your image" title='upload image'/>
-            </div>
-           <input type="submit" class=" submit btn btn-outline-success" value="Add Image">
-        </form>
-     </div>
-  </div>
-</div>
-
-<div class="col">
-   <div class="card card-outline-secondary">
-  <form action="" class="form formulaire" method="post">
-
-    <ul class="list-group list-group-flush ul-style ">
-
-      <li class="list-group-item ">
-          <label for="fname">I'm selling</label>
-          <div class="col">
-            <input type="text" class="form-control  " id="fname" required="" name="firstname" placeholder="What you are selling..">
+            </li>
           </div>
-        </li>
-
-  <li class="list-group-item">
-        <label for="fname">My number</label>
-      <div class=" col">
-        <input type="text" class="form-control" id="fname" required="" name="firstname" placeholder="Your number..">
-      </div>
-    </li>
-
-    <li class="list-group-item">
-
-      <label for="fnaddress">Your Address</label>
-    <div class=" col">
-   <input type="text" class=" form-control" placeholder="your city">
-   <input type="text" class=" form-control" placeholder=" your Area name">
- </div>
- </li>
-
-  <li class="list-group-item">
-        <label for="subject">Description of your meal</label>
-        <div class=" col">
-        <textarea id="subject" required="" class="form-control" name="subject" placeholder="Write something.." style="height:84px">
-        </textarea>
-         </div>
-
-   <button class="btn btn-outline-success" onclick="myFunction()">Post</button>
-
-   <div id="snackbar"><img src="https://designcontest3-com-designcontest.netdna-ssl.com/data/contests/155137/entries/tn_cbf40eb495d45f74.jpg"></div>
-
-          </li>
         </ul>
-      </form>
-    </div>
-  </div>
-</div>
-  </section>
-<!--  -->
-<script>
-function myFunction() {
-    var x = document.getElementById("snackbar");
-    x.className = "show";
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-}
-</script>
-<!--  -->
-  <script src="js/post.js" charset="utf-8"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+      </nav>
+      <section class="container-fluid">
+        <div class="row">
+          <div class="">
+            <div class="col card-body upload ">
+              <div id="preview">
+                <form id="form1" runat="server">
+                  <input type='file' id="imgInp" />
+                  <div id='img_contain' >
+                    <img id="blah"  class="" align='middle' src="http://www.clker.com/cliparts/c/W/h/n/P/W/generic-image-file-icon-hi.png" alt="your image" title='upload image'/>
+                  </div>
+                  <input type="submit" class=" submit btn btn-outline-success" value="Add Image">
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-outline-secondary">
+              <form action="" class="form formulaire" method="post">
+                <ul class="list-group list-group-flush ul-style ">
+                  <li class="list-group-item ">
+                    <label for="fname">I'm selling</label>
+                    <div class="col">
+                      <input type="text" class="form-control  " id="fname" required="" name="firstname" placeholder="What you are selling..">
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <label for="fname">My number</label>
+                    <div class=" col">
+                      <input type="text" class="form-control" id="fname" required="" name="firstname" placeholder="Your number..">
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <label for="fnaddress">Your Address</label>
+                    <div class=" col">
+                      <input type="text" class=" form-control" placeholder="your city">
+                      <input type="text" class=" form-control" placeholder=" your Area name">
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <label for="subject">Description of your meal</label>
+                    <div class=" col">
+                      <textarea id="subject" required="" class="form-control" name="subject" placeholder="Write something.." style="height:84px">
+
+                      </textarea>
+                    </div>
+                    <button class="btn btn-outline-success" onclick="myFunction()">Post</button>
+                    <div id="snackbar"><img src="https://designcontest3-com-designcontest.netdna-ssl.com/data/contests/155137/entries/tn_cbf40eb495d45f74.jpg"></div>
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </div>
+        <p style="font-size:15px; text-align:center;">&copy; Copyright 2018 InstaFood</p>
+      </section>
+      <!--  -->
+      <script>
+      function myFunction() {
+        var x = document.getElementById("snackbar");
+        x.className = "show";
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+      }
+    </script>
+    <!--  -->
+    <script src="js/post.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   </body>
-</html>
+  </html>
