@@ -19,12 +19,8 @@
       <a class="navbar-brand" href="#">
         <img src="Images/instafoodlogo.png" alt="logo" style="height:50px;">
       </a>
-
-      <form class="form-inline" name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
-        <input id="hiddenquery" type="hidden" name="q" />
-        <input name="qfront" class="form-control mr-sm-2" type="text" placeholder="Search" value="navigator object"/>
-        <div style="font: bold 11px Verdana; color:white;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
-        </div>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
         <button class="btn btn-success" type="submit">Search</button>
       </form>
       <!-- Links -->
@@ -59,7 +55,6 @@
    <div class="col-md-2 collo">
      <h2>Category</h2>
       <h4> <a href="home.html">Fast Foods</a></h4>
-
      <h4><a href="asian.html">Asian Cuisines</a></h4>
      <h4> <a href="african.html">African Cuisines</a> </h4>
      <h4> <a href="drinks.html">Drinks</a> </h4>
@@ -90,15 +85,7 @@
                       </div>
               </div>
               <h4>Bildungs Burger</h4>
-
-              <div class="like-button">
-                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
-                  <span class="count"></span>
-              </div>
-                  <div class="like-button">
-                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
-                      <span class="count"></span>
-                    </div>
+              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
          </div>
 
        </div>
@@ -118,22 +105,12 @@
                                   <span class="fa fa-instagram"></span>
                               </a>
                           </h1>
-
-                          <a href="#"><button class="success" type="button" name="button">ORDER</button></a>
-
+                          <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
                       </div>
 
               </div>
               <h4>Cow Boy Tacos</h4>
-
-              <div class="like-button">
-                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
-                  <span class="count"></span>
-              </div>
-                  <div class="like-button">
-                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
-                      <span class="count"></span>
-                    </div>
+              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
          </div>
 
        </div>
@@ -157,14 +134,7 @@
                       </div>
               </div>
               <h4>Cow Boy Fries</h4>
-              <div class="like-button">
-                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
-                  <span class="count"></span>
-              </div>
-                  <div class="like-button">
-                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
-                      <span class="count"></span>
-                    </div>
+              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
          </div>
 
        </div>
@@ -190,14 +160,7 @@
                       </div>
               </div>
               <h4>Bildungs Burger</h4>
-              <div class="like-button">
-                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
-                  <span class="count"></span>
-              </div>
-                  <div class="like-button">
-                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
-                      <span class="count"></span>
-                    </div>
+              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
          </div>
 
        </div>
@@ -222,14 +185,7 @@
 
               </div>
               <h4>Pepper Mint Fries</h4>
-              <div class="like-button">
-                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
-                  <span class="count"></span>
-              </div>
-                  <div class="like-button">
-                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
-                      <span class="count"></span>
-                    </div>
+              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
          </div>
 
        </div>
@@ -253,15 +209,7 @@
                       </div>
               </div>
               <h4>Donut Burger</h4>
-
-              <div class="like-button">
-                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
-                  <span class="count"></span>
-              </div>
-                  <div class="like-button">
-                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
-                      <span class="count"></span>
-                    </div>
+              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
          </div>
 
        </div>
@@ -274,8 +222,7 @@
 <p style="font-size:15px; text-align:center;">&copy; Copyright 2018 InstaFood</p>
 </footer>
     <!-- Scripts -->
-    <script src="js/african.js" type="text/javascript">
-
+    <script src="js/scripts.js" type="text/javascript">
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
