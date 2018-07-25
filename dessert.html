@@ -20,8 +20,11 @@
       <a class="navbar-brand" href="#">
         <img src="Images/instafoodlogo.png" alt="logo" style="height:50px;">
       </a>
-      <form class="form-inline">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <form class="form-inline" name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+        <input id="hiddenquery" type="hidden" name="q" />
+  <input name="qfront" class="form-control mr-sm-2" type="text" placeholder="Search" value="navigator object"/>><br />
+  <div style="font: bold 11px Verdana; color:white;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
+  </div>
           <button class="btn btn-success" type="submit">Search</button>
         </form>
       <!-- Links -->
@@ -95,7 +98,14 @@
                       </div>
               </div>
               <h4>Creamy Lemon Berry</h4>
-              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
+              <div class="like-button">
+                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
+                  <span class="count"></span>
+              </div>
+                  <div class="like-button">
+                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
+                      <span class="count"></span>
+                    </div>
          </div>
 
        </div>
@@ -120,7 +130,14 @@
 
               </div>
               <h4>Cowch</h4>
-              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
+              <div class="like-button">
+                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
+                  <span class="count"></span>
+              </div>
+                  <div class="like-button">
+                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
+                      <span class="count"></span>
+                    </div>
          </div>
 
        </div>
@@ -144,7 +161,14 @@
                       </div>
               </div>
               <h4>Fudge Coca Cola Cake</h4>
-              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
+              <div class="like-button">
+                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
+                  <span class="count"></span>
+              </div>
+                  <div class="like-button">
+                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
+                      <span class="count"></span>
+                    </div>
          </div>
 
        </div>
@@ -170,7 +194,14 @@
                       </div>
               </div>
               <h4>Mini Brownie</h4>
-              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
+              <div class="like-button">
+                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
+                  <span class="count"></span>
+              </div>
+                  <div class="like-button">
+                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
+                      <span class="count"></span>
+                    </div>
          </div>
 
        </div>
@@ -195,7 +226,14 @@
 
               </div>
               <h4>S'mores Brownies</h4>
-              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
+              <div class="like-button">
+                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
+                  <span class="count"></span>
+              </div>
+                  <div class="like-button">
+                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
+                      <span class="count"></span>
+                    </div>
          </div>
 
        </div>
@@ -219,7 +257,14 @@
                       </div>
               </div>
               <h4>Fudge Ice Cream Dessert</h4>
-              <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i> 1501</button><button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i> 11</button> <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-comment"></i> Comment</button>
+              <div class="like-button">
+                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
+                  <span class="count"></span>
+              </div>
+                  <div class="like-button">
+                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
+                      <span class="count"></span>
+                    </div>
          </div>
 
        </div>
@@ -232,7 +277,7 @@
 </footer>
 
     <!-- Scripts -->
-    <script src="js/scripts.js" type="text/javascript">
+    <script src="js/african.js" type="text/javascript">
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
