@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-body{background-image: url(../Images/p-ugali-and-fish.jpg);
-    width:100%;
-    background-repeat: no-repeat;
-    background-size:100%
-
-=======
 body{
     background-image: url(../Images/salad.jpg);
     width:100%;
     background-repeat: no-repeat;
     background-size:100%
->>>>>>> master
 }
 
 /* Bordered form */
@@ -51,29 +43,15 @@ button:hover {
     background-color: #f44336;
 }
 
-<<<<<<< HEAD
 /* Add padding to containers */
 .container {
     padding: 14px;
     width: auto;
     margin-right:10px;
-=======
-/* Center the avatar image inside this container */
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-}
-
-/* Avatar image */
-img.avatar {
-    width: 40%;
-    border-radius: 50%;
-}
 
 /* Add padding to containers */
 .container {
     padding: 16px;
->>>>>>> master
 }
 
 /* The "Forgot password" text */
@@ -82,11 +60,8 @@ span.psw {
     padding-top: 16px;
 }
 
-<<<<<<< HEAD
 /* Change styles for span all screens */
-=======
 /* Change styles for span and cancel button on extra small screens */
->>>>>>> master
 @media screen and (max-width: 300px) {
     span.psw {
         display: block;
@@ -95,9 +70,4 @@ span.psw {
     .cancelbtn {
         width: 100%;
     }
-<<<<<<< HEAD
 } 
- 
-=======
-} 
->>>>>>> master
