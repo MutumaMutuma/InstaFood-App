@@ -1,8 +1,8 @@
-body{
-    background-image: url(../Images/p-ugali-and-fish.jpg);
+body{background-image: url(../Images/p-ugali-and-fish.jpg);
     width:100%;
     background-repeat: no-repeat;
     background-size:100%
+
 }
 
 /* Bordered form */
@@ -43,21 +43,11 @@ button:hover {
     background-color: #f44336;
 }
 
-/* Center the avatar image inside this container */
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-}
-
-/* Avatar image */
-img.avatar {
-    width: 40%;
-    border-radius: 50%;
-}
-
 /* Add padding to containers */
 .container {
-    padding: 16px;
+    padding: 14px;
+    width: auto;
+    margin-right:10px;
 }
 
 /* The "Forgot password" text */
@@ -66,7 +56,7 @@ span.psw {
     padding-top: 16px;
 }
 
-/* Change styles for span and cancel button on extra small screens */
+/* Change styles for span all screens */
 @media screen and (max-width: 300px) {
     span.psw {
         display: block;
@@ -76,3 +66,4 @@ span.psw {
         width: 100%;
     }
 } 
+ 
