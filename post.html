@@ -103,7 +103,11 @@
         <textarea id="subject" required="" class="form-control" name="subject" placeholder="Write something.." style="height:84px">
         </textarea>
          </div>
-      <button class="btn btn-outline-success" type="button" name="button"> Submit</button>
+
+   <button class="btn btn-outline-success" onclick="myFunction()">Post</button>
+
+   <div id="snackbar"><img src="https://designcontest3-com-designcontest.netdna-ssl.com/data/contests/155137/entries/tn_cbf40eb495d45f74.jpg"></div>
+
           </li>
         </ul>
       </form>
@@ -111,7 +115,15 @@
   </div>
 </div>
   </section>
-
+<!--  -->
+<script>
+function myFunction() {
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+</script>
+<!--  -->
   <script src="js/post.js" charset="utf-8"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
