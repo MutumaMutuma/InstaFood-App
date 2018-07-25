@@ -1,11 +1,11 @@
 body{background-image: url(../Images/salad.jpg);
-    width:100px;
+    width:50px;
     background-repeat: no-repeat;
     background-size:cover;
   }
   .imge{
-   width: 300px;
-   height: 300px;
+   width: 150px;
+   height: 150px;
   }
   .form{
    margin-left:25%;
@@ -31,10 +31,10 @@ body{background-image: url(../Images/salad.jpg);
   .h1{
   font-family: fantasy;
   font-weight: bold;
-  letter-spacing:5px;
+  letter-spacing:1px;
   text-shadow:2px 1px 1px rgba(0,0,0,1.9);
-  color: rgb(194, 191, 16);
-  font-style: oblique;
+  color: rgb(243, 240, 49);
+  font-style: italic;
   }
   .h3{
    margin-left:50%;
