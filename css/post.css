@@ -1,20 +1,18 @@
-*{
+.preview{
   font-family: 'Comfortaa', cursive;
 }
 .upload{
- background-color:#add8e6;
+ background-color: rgb(38, 114, 114,0.5);
+ height:550px;
 }
-#img_contain{
- border:1px solid grey;
- margin-top:10px;
- width:520px;
-
-}
+.body{
+  background-image: url(../Images/donut-burger.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
 
 #imgInp{
- margin-left:7px;
- padding:10px;
- background-color:gray;
+ padding:0;
 
 }
 #blah{
@@ -22,15 +20,14 @@
  width:auto;
  display:block;
  margin-left: auto;
-  margin-right: auto;
- padding:5px;
+margin-right: auto;
+ padding:2px;
 }
 
 
 .formulaire{
-   background-color:#add8e6;
+     background-color: rgb(38, 114, 114,0.5);
   padding: 30px 30px 15px 30px;
-  border: 1px solid #53687E;
 
 }
 .ul-style{

@@ -1,282 +1,289 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title>IntaFood App</title>
+  <title>IntaFood App</title>
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <!-- Brand/logo -->
-      <a class="navbar-brand" href="#">
-        <img src="Images/instafoodlogo.png" alt="logo" style="height:50px;">
-      </a>
+              <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                            <!-- Brand/logo -->
+                   <a class="navbar-brand" href="#">
+                        <img src="Images/instafoodlogo.png" alt="logo" style="height:50px;">
+                      </a>
 
-      <form class="form-inline" name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
-        <input id="hiddenquery" type="hidden" name="q" />
-        <input name="qfront" class="form-control mr-sm-2" type="text" placeholder="Search" value="navigator object"/>
-        <div style="font: bold 11px Verdana; color:white;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
-        </div>
-        <button class="btn btn-success" type="submit">Search</button>
-      </form>
-      <!-- Links -->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-        <a href="home.html"><button href="home.html" type="button" class="btn btn-outline-success">Home</button></a>
-        </li>
-        <li class="nav-item">
-        <a href="post.html"><button herf="post.html" type="button" class="btn btn-outline-success">Post Meal</button></a>
-        </li>
-        <li class="nav-item">
-        <a href="about.html"><button href="about.html" type="button" class="btn btn-outline-success">About Us</button></a>
-        </li>
-        </div>
-        <div class="">
-          <li class="nav-item dropdown">
-            <div class="dropdown show">
-              <a class="btn btn-outline-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Options</a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="#">Settings</a>
-                  <a class="dropdown-item" href="#">Profile</a>
-                  <a class="dropdown-item" href="#">Log Out</a>
-                </div>
-              </div>
-            </li>
-          </div>
-        </ul>
-      </nav>
-        <!-- -->
+                    <form class="form-inline" name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+                        <input id="hiddenquery" type="hidden" name="q" />
+                        <input name="qfront" class="form-control mr-sm-2" type="text" placeholder="Search" value="navigator object"/>
+                           <div style="font: bold 11px Verdana; color:white;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
+                              </div>
+                              <button class="btn btn-success" type="submit">Search</button>
+                      </form>
+                            <!-- Links -->
+                      <ul class="navbar-nav ml-auto">
+                              <li class="nav-item">
+                                  <a href="home.html"><button href="home.html" type="button" class="btn btn-outline-success">Home</button></a>
+                              </li>
+                              <li class="nav-item">
+                                    <a href="post.html"><button herf="post.html" type="button" class="btn btn-outline-success">Post Meal</button></a>
+                              </li>
+                              <li class="nav-item">
+                                    <a href="about.html"><button href="about.html" type="button" class="btn btn-outline-success">About Us</button></a>
+                              </li>
+                              </div>
+                              <div class="">
+                                <li class="nav-item dropdown">
+                                  <div class="dropdown show">
+                                    <a class="btn btn-outline-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Options</a>
+                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Settings</a>
+                                        <a class="dropdown-item" href="#">Profile</a>
+                                        <a class="dropdown-item" href="#">Log Out</a>
+                                      </div>
+                                    </div>
+                                  </li>
+                                </div>
+                              </ul>
+                </nav>
+                  <div class="container-fluid" id="collo">
+                        <div class="row">
+                         <div class="col-md-2 collo">
+                           <h2>Category</h2>
+                            <h4> <a href="home.html">Fast Foods</a></h4>
+
+                           <h4><a href="asian.html">Asian Cuisines</a></h4>
+                           <h4> <a href="african.html">African Cuisines</a> </h4>
+                           <h4> <a href="drinks.html">Drinks</a> </h4>
+                           <h4> <a href="dessert.html">Dessert</a> </h4>
+                           <img src="Images/Uu6vpGiM.png" alt=""width="150px">
+                         </div>
+
+                         <div class="col-md-10">
+                           <h1> <img src="Images/fastfood-logo.jpg" alt="" height="150px" width="200px"> Fast Foods</h1>
+                           <div class="row">
+                             <div class="col-md-4">
+                               <div class="Thumbnail">
+                                 <div class="hovereffect">
+                                        <img class="img-responsive" src="Images/bildungsburger2.jpg" alt="" height="300px" width="300px">
+                                            <div class="overlay">
+                                                <h1 class="icon-links">
+                                                    <a href="#">
+                                                        <span class="fa fa-twitter"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-facebook"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-instagram"></span>
+                                                    </a>
+                                                </h1>
+                                                <a href="order.html"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
+                                            </div>
+                                    </div>
+                                    <h4>Bildungs Burger</h4>
+                          <div class=" but">
+                                    <div class="like-button">
+                                      <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
+                                        <span class="count"></span>
+                                    </div>
+                                        <div class="like-button">
+                                        <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
+                                            <span class="count"></span>
+                                          </div>
+                                  </div>
+                               </div>
+
+                             </div>
+                             <div class="col-md-4">
+                               <div class="Thumbnail">
+                                 <div class="hovereffect">
+                                        <img class="img-responsive" src="Images/taco-bell-artificial-ingredients.jpg" alt="" height="300px" width="300px">
+                                            <div class="overlay">
+                                                <h1 class="icon-links">
+                                                    <a href="#">
+                                                        <span class="fa fa-twitter"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-facebook"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-instagram"></span>
+                                                    </a>
+                                                </h1>
+
+                                                <a href="#"><button class="success" type="button" name="button">ORDER</button></a>
+
+                                            </div>
+
+                                    </div>
+                                    <h4>Cow Boy Tacos</h4>
+                          <div class=" but">
+                                    <div class="like-button">
+                                      <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
+                                        <span class="count"></span>
+                                    </div>
+                                        <div class="like-button">
+                                        <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
+                                            <span class="count"></span>
+                                          </div>
+                               </div>
+                               </div>
+
+                             </div>
+                             <div class="col-md-4">
+                               <div class="Thumbnail">
+                                 <div class="hovereffect">
+                                        <img class="img-responsive" src="Images/CowboyFries2.jpg" alt="" height="300px" width="300px">
+                                            <div class="overlay">
+                                                <h1 class="icon-links" style="color: white;">
+                                                    <a href="#">
+                                                        <span class="fa fa-twitter"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-facebook"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-instagram"></span>
+                                                    </a>
+                                                </h1>
+                                              <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
+                                            </div>
+                                    </div>
+                                    <h4>Cow Boy Fries</h4>
+                                    <div class="but">
+                                    <div class="like-button">
+                                      <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
+                                        <span class="count"></span>
+                                    </div>
+                                        <div class="like-button">
+                                        <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
+                                            <span class="count"></span>
+                                          </div>
+                               </div>
+                               </div>
+
+                             </div>
+                           </div>
+                           <div class="row">
+                             <div class="col-md-4">
+                               <div class="Thumbnail">
+                                 <div class="hovereffect">
+                                        <img class="img-responsive" src="Images/pizza.jpg" alt="" height="300px" width="300px">
+                                            <div class="overlay">
+                                                <h1 class="icon-links">
+                                                    <a href="#">
+                                                        <span class="fa fa-twitter"></span>
+                                                    </a>
+                                                    <a href="#" style="font-size:20px;">
+                                                        <span class="fa fa-facebook"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-instagram"></span>
+                                                    </a>
+                                                </h1>
+                                                <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
+                                            </div>
+                                    </div>
+                                    <h4>Bildungs Burger</h4>
+                                    <div class="but">
+                                    <div class="like-button">
+                                      <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
+                                        <span class="count"></span>
+                                    </div>
+                                        <div class="like-button">
+                                        <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
+                                            <span class="count"></span>
+                                          </div>
+                               </div>
+                                 </div>
+
+                             </div>
+                             <div class="col-md-4">
+                               <div class="Thumbnail">
+                                 <div class="hovereffect">
+                                        <img class="img-responsive" src="Images/Peppermintfries.jpg" alt="" height="300px" width="300px">
+                                            <div class="overlay">
+                                                <h1 class="icon-links">
+                                                    <a href="#">
+                                                        <span class="fa fa-twitter"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-facebook"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-instagram"></span>
+                                                    </a>
+                                                </h1>
+                                                <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
+                                            </div>
+
+                                    </div>
+                                    <h4>Pepper Mint Fries</h4>
+                                    <div class="but">
 
 
-<div class="container-fluid" id="collo">
-  <div class="row">
-   <div class="col-md-2 collo">
-     <h2>Category</h2>
-      <h4> <a href="home.html">Fast Foods</a></h4>
+                                    <div class="like-button">
+                                      <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
+                                        <span class="count"></span>
+                                    </div>
+                                        <div class="like-button">
+                                        <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
+                                            <span class="count"></span>
+                                          </div>
+                                          </div>
+                               </div>
 
-     <h4><a href="asian.html">Asian Cuisines</a></h4>
-     <h4> <a href="african.html">African Cuisines</a> </h4>
-     <h4> <a href="drinks.html">Drinks</a> </h4>
-     <h4> <a href="dessert.html">Dessert</a> </h4>
-     <img src="Images/Uu6vpGiM.png" alt=""width="150px">
-   </div>
+                             </div>
+                             <div class="col-md-4">
+                               <div class="Thumbnail">
+                                 <div class="hovereffect">
+                                        <img class="img-responsive" src="Images/donut-burger.jpg" alt="" height="300px" width="300px">
+                                            <div class="overlay">
+                                                <h1 class="icon-links">
+                                                    <a href="#">
+                                                        <span class="fa fa-twitter"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-facebook"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-instagram"></span>
+                                                    </a>
+                                                </h1>
+                                              <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
+                                            </div>
+                                    </div>
+                                    <h4>Donut Burger</h4>
+                      <div class="but">
+                                    <div class="like-button">
+                                      <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
+                                        <span class="count"></span>
+                                    </div>
+                                        <div class="like-button">
+                                        <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
+                                            <span class="count"></span>
+                                          </div>
+                                          </div>
+                               </div>
 
-   <div class="col-md-10">
-     <h1> <img src="Images/fastfood-logo.jpg" alt="" height="150px" width="200px"> Fast Foods</h1>
-     <div class="row">
-       <div class="col-md-4">
-         <div class="Thumbnail">
-           <div class="hovereffect">
-                  <img class="img-responsive" src="Images/bildungsburger2.jpg" alt="" height="300px" width="300px">
-                      <div class="overlay">
-                          <h1 class="icon-links">
-                              <a href="#">
-                                  <span class="fa fa-twitter"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-facebook"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-instagram"></span>
-                              </a>
-                          </h1>
-                          <a href="order.html"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
+                             </div>
+                           </div>
+                         </div>
+                        </div>
                       </div>
-              </div>
-              <h4>Bildungs Burger</h4>
-<div class=" but">
-              <div class="like-button">
-                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
-                  <span class="count"></span>
-              </div>
-                  <div class="like-button">
-                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
-                      <span class="count"></span>
-                    </div>
-            </div>
-         </div>
 
-       </div>
-       <div class="col-md-4">
-         <div class="Thumbnail">
-           <div class="hovereffect">
-                  <img class="img-responsive" src="Images/taco-bell-artificial-ingredients.jpg" alt="" height="300px" width="300px">
-                      <div class="overlay">
-                          <h1 class="icon-links">
-                              <a href="#">
-                                  <span class="fa fa-twitter"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-facebook"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-instagram"></span>
-                              </a>
-                          </h1>
-
-                          <a href="#"><button class="success" type="button" name="button">ORDER</button></a>
-
-                      </div>
-
-              </div>
-              <h4>Cow Boy Tacos</h4>
-
-              <div class="like-button">
-                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
-                  <span class="count"></span>
-              </div>
-                  <div class="like-button">
-                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
-                      <span class="count"></span>
-                    </div>
-         </div>
-
-       </div>
-       <div class="col-md-4">
-         <div class="Thumbnail">
-           <div class="hovereffect">
-                  <img class="img-responsive" src="Images/CowboyFries2.jpg" alt="" height="300px" width="300px">
-                      <div class="overlay">
-                          <h1 class="icon-links" style="color: white;">
-                              <a href="#">
-                                  <span class="fa fa-twitter"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-facebook"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-instagram"></span>
-                              </a>
-                          </h1>
-                        <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
-                      </div>
-              </div>
-              <h4>Cow Boy Fries</h4>
-              <div class="like-button">
-                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
-                  <span class="count"></span>
-              </div>
-                  <div class="like-button">
-                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
-                      <span class="count"></span>
-                    </div>
-         </div>
-
-       </div>
-     </div>
-     <div class="row">
-       <div class="col-md-4">
-         <div class="Thumbnail">
-           <div class="hovereffect">
-                  <img class="img-responsive" src="Images/pizza.jpg" alt="" height="300px" width="300px">
-                      <div class="overlay">
-                          <h1 class="icon-links">
-                              <a href="#">
-                                  <span class="fa fa-twitter"></span>
-                              </a>
-                              <a href="#" style="font-size:20px;">
-                                  <span class="fa fa-facebook"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-instagram"></span>
-                              </a>
-                          </h1>
-                          <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
-                      </div>
-              </div>
-              <h4>Bildungs Burger</h4>
-              <div class="like-button">
-                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
-                  <span class="count"></span>
-              </div>
-                  <div class="like-button">
-                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
-                      <span class="count"></span>
-                    </div>
-         </div>
-
-       </div>
-       <div class="col-md-4">
-         <div class="Thumbnail">
-           <div class="hovereffect">
-                  <img class="img-responsive" src="Images/Peppermintfries.jpg" alt="" height="300px" width="300px">
-                      <div class="overlay">
-                          <h1 class="icon-links">
-                              <a href="#">
-                                  <span class="fa fa-twitter"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-facebook"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-instagram"></span>
-                              </a>
-                          </h1>
-                          <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
-                      </div>
-
-              </div>
-              <h4>Pepper Mint Fries</h4>
-              <div class="like-button">
-                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
-                  <span class="count"></span>
-              </div>
-                  <div class="like-button">
-                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
-                      <span class="count"></span>
-                    </div>
-         </div>
-
-       </div>
-       <div class="col-md-4">
-         <div class="Thumbnail">
-           <div class="hovereffect">
-                  <img class="img-responsive" src="Images/donut-burger.jpg" alt="" height="300px" width="300px">
-                      <div class="overlay">
-                          <h1 class="icon-links">
-                              <a href="#">
-                                  <span class="fa fa-twitter"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-facebook"></span>
-                              </a>
-                              <a href="#">
-                                  <span class="fa fa-instagram"></span>
-                              </a>
-                          </h1>
-                        <a href="#"><button class="btn btn-success" type="button" name="button">ORDER</button></a>
-                      </div>
-              </div>
-              <h4>Donut Burger</h4>
-
-              <div class="like-button">
-                <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-up"></i></button>
-                  <span class="count"></span>
-              </div>
-                  <div class="like-button">
-                  <button class="btn btn-outline-success" type="button" name="button"><i class="glyphicon glyphicon-thumbs-down"></i></button>
-                      <span class="count"></span>
-                    </div>
-         </div>
-
-       </div>
-     </div>
-   </div>
-  </div>
-</div>
-
-<footer>
-<p style="font-size:15px; text-align:center;">&copy; Copyright 2018 InstaFood</p>
-</footer>
+                      <footer>
+                      <p style="font-size:15px; text-align:center;">&copy; Copyright 2018 InstaFood</p>
+                      </footer>
     <!-- Scripts -->
     <script src="js/african.js" type="text/javascript">
 

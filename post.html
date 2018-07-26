@@ -11,7 +11,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <title>INSTA-FOOD</title>
   </head>
-  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" class="">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <!-- Brand/logo -->
       <a class="navbar-brand" href="#">
@@ -19,7 +19,7 @@
       </a>
       <form class="form-inline" name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
         <input id="hiddenquery" type="hidden" name="q" />
-  <input name="qfront" class="form-control mr-sm-2" type="text" placeholder="Search" value="navigator object"/>><br />
+  <input name="qfront"  class="form-control mr-sm-2" type="text" placeholder="Search" value="navigator object"/>><br />
   <div style="font: bold 11px Verdana; color:white;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
   </div>
           <button class="btn btn-success" type="submit">Search</button>
@@ -51,24 +51,24 @@
           </div>
         </ul>
       </nav>
-      <section class="container-fluid">
+      <section class="container-fluid body">
         <div class="row">
           <div class="">
             <div class="col card-body upload ">
               <div id="preview">
                 <form id="form1" runat="server">
-                  <input type='file' id="imgInp" />
+                  <input type='file' class=" btn btn-success" style=" background-color: rgba(255,255,255,0.5)" id="imgInp" />
                   <div id='img_contain' >
-                    <img id="blah"  class="" align='middle' src="http://www.clker.com/cliparts/c/W/h/n/P/W/generic-image-file-icon-hi.png" alt="your image" title='upload image'/>
+                    <img id="blah"  class="col-lg-12 col-sm-5 col-xs-5 col-md-12 " align='middle' src="Images/Camera_Moto_30013.png" alt="your image" title='upload image'/>
                   </div>
-                  <input type="submit" class=" submit btn btn-outline-success" value="Add Image">
+                  <input type="submit"  class=" submit btn btn-success" value="Add Image">
                 </form>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card card-outline-secondary">
-              <form action="" class="form formulaire" method="post">
+            <div class="">
+              <form action="" class=" formulaire" method="post">
                 <ul class="list-group list-group-flush ul-style ">
                   <li class="list-group-item ">
                     <label for="fname">I'm selling</label>
@@ -96,7 +96,7 @@
 
                       </textarea>
                     </div>
-                    <button class="btn btn-outline-success" onclick="myFunction()">Post</button>
+                    <button class="btn btn-success float-right" onclick="myFunction()">Post</button>
                     <div id="snackbar">You've Succesfully Posted... Thanks</div>
                   </li>
                 </ul>

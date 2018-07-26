@@ -113,8 +113,8 @@ transition-delay:.2s;
     background-size:cover;
   }
   .imge{
-   width: 100px;
-   height: 100px;
+   width:px;
+   height:px;
   }
   .form{
    margin-left:25%;
@@ -140,20 +140,18 @@ transition-delay:.2s;
   .h1{
   font-family: fantasy;
   font-weight: bold;
-  letter-spacing:1px;
+  letter-spacing:5px;
   color: white;
   font-style: italic;
   }
   .h3{
-   margin-left:50%;
   font-family:cursive;
-  font-weight: bold;
-  letter-spacing:2px;
-  text-shadow:2px 1px 1px rgba(0,0,0,1.9);
-  color:White;
+  letter-spacing:1px;
+  text-shadow:1px 1px 1px rgba(0,0,0,1.9);
+    color: white;
   }
   .back{
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(38, 114, 114,0.5);
     height: 400px;
 
   }
