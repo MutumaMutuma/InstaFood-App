@@ -1,6 +1,31 @@
 *{
   font-family: 'Comfortaa', cursive;
 }
+.cathy{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVYBs5D_WFVZDfIk70wavElbMUq9klDbLcf97d7uFqdxwGJR7D");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: black;
+}
+.lewis{
+  background-image: url("../Images2/videoblocks-animation-dust-particles-on-a-black-background-4k_s7fw8itm5l_thumbnail-full01.png");
+  color: gold;
+  background-attachment: fixed;
+}
+.kalama{
+  background-image: url("../Images2/videoblocks-animation-dust-particles-on-a-black-background-4k_s7fw8itm5l_thumbnail-full01.png");
+  color: gold;
+  background-attachment: fixed;
+}
+.maxie{
+  background-image: url("../Images2/maxresdefault.jpg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:gold;
+  font-size: 25px;
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
