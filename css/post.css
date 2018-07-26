@@ -1,0 +1,80 @@
+.preview{
+  font-family: 'Comfortaa', cursive;
+}
+.upload{
+ background-color: rgb(38, 114, 114,0.5);
+ height:550px;
+}
+.body{
+  background-image: url(../Images/donut-burger.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+#imgInp{
+ padding:0;
+
+}
+#blah{
+ height:410px;
+ width:auto;
+ display:block;
+ margin-left: auto;
+margin-right: auto;
+ padding:2px;
+}
+
+
+.formulaire{
+     background-color: rgb(38, 114, 114,0.5);
+  padding: 30px 30px 15px 30px;
+
+}
+.ul-style{
+
+}
+.test {
+  margin-left: 60px;
+}
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: white;
+    color: black;
+    border:2px solid green;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}

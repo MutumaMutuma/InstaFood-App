@@ -1,0 +1,24 @@
+.card{
+  background-color: #eaf2ed;
+  font-family: 'Patrick Hand', cursive;
+}
+#show-contact {
+  display: none;
+}
+
+.contact {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
+body{
+  background-image: url(../Images/donut-burger.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .back{
+   background-color: rgb(38, 114, 114,0.5);
+  }
