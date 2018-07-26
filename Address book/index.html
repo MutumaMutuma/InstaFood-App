@@ -14,36 +14,36 @@
   </head>
   <body>
     <div class="container">
-      <div class="card">
+      <div class="back">
         <h1> <img src="Images/Map-Marker-Marker-Outside-Azure-icon.png" alt="" height="100px" width="100px"> Address book</h1>
 
-        <div class="row">
+        <div class="row" style="color:white;">
 
           <div class="col-md-6">
             <h2>Add a contact:</h2>
             <form id="new-contact">
               <div class="form-group">
                 <label for="new-first-name">First name</label>
-                <input type="text" class="form-control" id="new-first-name">
+                <input type="text" style="height:50px;  background-color: rgba(255,255,255,0.5)" class="form-control" id="new-first-name">
               </div>
               <div class="form-group">
                 <label for="new-last-name">Last name</label>
-                <input type="text" class="form-control" id="new-last-name">
+                <input type="text" style="height:50px;  background-color: rgba(255,255,255,0.5)" class="form-control" id="new-last-name">
               </div>
 
               <div id="new-addresses">
                 <div class="new-address">
                   <div class="form-group">
                     <label for="new-street">Street</label>
-                    <input type="text" class="form-control new-street">
+                    <input type="text" style="height:50px;  background-color: rgba(255,255,255,0.5)" class="form-control new-street">
                   </div>
                   <div class="form-group">
                     <label for="new-city">City</label>
-                    <input type="text" class="form-control new-city">
+                    <input type="text" style="height:50px;  background-color: rgba(255,255,255,0.5)" class="form-control new-city">
                   </div>
                   <div class="form-group">
                     <label for="new-state">State</label>
-                    <input type="text" class="form-control new-state">
+                    <input type="text" style="height:50px;  background-color: rgba(255,255,255,0.5)" class="form-control new-state">
                   </div>
                 </div>
               </div>
@@ -54,7 +54,7 @@
             </form>
 
             <h2>Contacts:</h2>
-            <ul id="contacts">
+            <ul style="text-decoration:underline;" id="contacts">
 
             </ul>
           </div>
@@ -65,7 +65,7 @@
               <p>First name: <span class="first-name"></span></p>
               <p>Last name: <span class="last-name"></span></p>
               <p>Addresses:</p>
-              <ul id="addresses">
+              <ul  id="addresses">
 
               </ul>
             </div>

@@ -14,3 +14,11 @@
 .contact:hover {
   text-decoration: underline;
 }
+body{
+  background-image: url(../Images/donut-burger.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .back{
+   background-color: rgb(38, 114, 114,0.5);
+  }
